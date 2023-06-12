@@ -1,568 +1,1056 @@
 <!DOCTYPE html>
+
+<!--
+	Template:   Tank - Creative Portfolio Showcase HTML Website Template
+	Author:     Themetorium
+	URL:        https://themetorium.net/
+-->
+
 <html lang="en">
+	<head>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- Primary Meta Tags -->
-<title>Mohamad Alfi Faisal</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="title" content="Neumorphism UI - About us">
-<meta name="author" content="Themesberg">
+		<!-- Title -->
+		<title>Alfi Faisal Portofolio</title>
 
-<link rel="canonical" href="https://themesberg.com/product/ui-kits/neumorphism-ui/" />
+		<!-- Meta -->
+		<meta charset="utf-8">
 
-<!--  Social tags -->
-<meta name="keywords" content="neumorphism, neumorphism ui, neomorphism, neomorphism ui, neomorphism css, neumorphism css, neumorph, neumorphic, design system, login, form, table, tables, card, cards, navbar, modal, icons, icons, map, chat, carousel, menu, datepicker, gallery, slider, date, social, dropdown, search, tab, nav, footer, date picker, forms, tabs, time, button, select, input, timeline, cart, about us, account, log in, blog, profile, portfolio, landing page, ecommerce, shop, landing, register, app, contact, one page, sign up, signup, store, bootstrap 4, bootstrap4, dashboard, bootstrap 4 dashboard, bootstrap 4 design, bootstrap 4 system, bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, themesberg, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit">
-<meta name="description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Neumorphism UI by Themesberg">
-<meta itemprop="description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
-<meta itemprop="image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
+		<!-- Favicon (http://www.favicon-generator.org/) -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="product">
-<meta name="twitter:site" content="@themesberg">
-<meta name="twitter:title" content="Neumorphism UI by Themesberg">
-<meta name="twitter:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
-<meta name="twitter:creator" content="@themesberg">
-<meta name="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
+		<!-- Your Google Analytics code goes here! -->
 
-<!-- Open Graph data -->
-<meta property="fb:app_id" content="214738555737136">
-<meta property="og:title" content="Neumorphism UI by Themesberg" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
-<meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"/>
-<meta property="og:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
-<meta property="og:site_name" content="Themesberg" />
+		<!-- Google fonts (https://www.google.com/fonts) -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
 
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="assets/vendor/normalize/normalize.min.css"> <!-- Normalize CSS (https://necolas.github.io/normalize.css/) -->
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+		<link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
+		<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
 
+		<!-- Template master CSS -->
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
 
-<!-- Fontawesome -->
-<link type="text/css" href="../../vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+	</head>
 
-<!-- Pixel CSS -->
-<link type="text/css" href="../../css/neumorphism.css" rel="stylesheet">
-
-<!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
-
-</head>
-
-<body>
-    <header class="header-global">
-    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light">
-        <div class="container position-relative">
-            <!-- <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="../../index.html">
-                <img class="navbar-brand-dark" src="../../assets/img/brand/dark.svg" alt="Logo light">
-                <img class="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="Logo dark">
-            </a> -->
-            <div class="navbar-collapse collapse" id="navbar_global">
-                <div class="navbar-collapse-header">
-                    <div class="row">
-                        <div class="col-6 collapse-brand">
-                            <a href="../../index.html" class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
-                                <img src="../../assets/img/brand/dark.svg" alt="Themesberg logo">
-                            </a>
-                        </div>
-                        <div class="col-6 collapse-close">
-                            <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-    </nav>
-</header>
-    <main>
-        <!-- Hero -->
-        <div class="section section-header pb-7">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-8 text-center">
-                        <h1 class="display-2 mb-4">Hallo Semua</h1>
-                        <p class="lead mb-5">Hai Perkenalkan nama aku Mohamad Alfi Faisal aku seorang Web Developer dan juga sebagain konseptor pembuatan konten-konten kreative. </p>
-                        <a class="btn btn-primary" href="./contact.html"><span class="fas fa-book-reader mr-2"></span>Our works</a></div>
-                </div>
-            </div>        
-        </div>
-        <!-- End of Hero section -->
-        <section class="section section-lg pt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card bg-primary shadow-soft border-light p-4">
-                            <div class="row">
-                                <div class="col-12 col-lg-4 px-md-0 mb-4 mb-lg-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="fab fa-leanpub"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            SMP Daarul Falaah Cisaat
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0">(2009 - 2011 ) Selajambe, Kec. Cisaat, Sukabumi Regency, Jawa Barat 43152.</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 px-md-0 mb-4 mb-lg-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="fab fa-leanpub"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            SMAN 4 Kota Sukabumi
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0">(IPA 2011-2014) Jl. Ir. H. Juanda No.8, Cikole, Kec. Cikole, Kota Sukabumi, Jawa Barat 43113.</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 px-md-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="fab fa-leanpub"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            Universita BSI Sukabumi
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0">(Ilmu Komputer 2014-2018) Jl. Cemerlang No.8, Sukakarya, Kec. Warudoyong, Kota Sukabumi, Jawa Barat 43135.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- penglaman kerja -->
-        <section class="section section-lg pt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card bg-primary shadow-soft border-light p-4">
-                            <div class="row">
-                                <div class="col-12 col-lg-4 px-md-0 mb-4 mb-lg-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="far fa-lightbulb"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            Team Creative (Kingsalman)
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0"> ( 2021 )Pembuatan konsep untuk membranding semua toko, pembuatan konsep untuk semua sosial media, Instagram, Youtube, Tiktok, Poto Produk.</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 px-md-0 mb-4 mb-lg-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="fas fa-bug"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            IT Staf (Java Festival Production)
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0">(2019-2021)Memonitoring semua sistem kantor, mulai dari awal pembuatan event yang akar dilaksanakan,mengontrol sistem marketing,mengontrol sistem merchant,sistem tiketing,sistem ID,sistem meals,mebuat web/sistem lokal.</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 px-md-0">
-                                    <div class="card-body text-center bg-primary py-5">
-                                        <div class="icon icon-shape shadow-inset border-light rounded-circle mb-3">
-                                            <span class="fas fa-puzzle-piece"></span>
-                                        </div>
-                                        <!-- Heading -->
-                                        <h2 class="h4 mr-2">
-                                            Freelancer/Project
-                                        </h2>
-                                        <!-- Text -->
-                                        <p class="mb-0">(2018-2019) 1. (BAPPEDA sukabumi) Mensurvei pendataan di lapangan untuk pembuatan maping anak planologi dalam masterplant perataan pembangunan di daerah terpencil di sukabumi. 2.(KOMINFO jakrta) mensurvei pemanfaatan internet di daerah terpelosok kota palu sudah di pergunakan dengan baik dan juga merata di setiap daerah nya </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section -->
-        <section class="section section-lg pt-0">
-            <div class="container">
-                <div class="row align-items-center justify-content-around">
-                    <div class="col-md-6 col-xl-6 mb-5">
-                        <div class="card bg-primary shadow-soft border-light organic-radius p-3">
-                            <img class="organic-radius img-fluid" src="../../assets/img/about-us-1.jpg" alt="modern desk">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-5 text-center text-md-left">
-                        <h2 class="h1 mb-4">Web Developer & Conten Creator.</h2>
-                        <p class="lead"> Hallo saya mohamad alfi faisal biasa di panggil alfi, saya sudah pernah bekerja di salah satu event organizer di jakarta yaitu java festival production sudah menggarap beberapa event besar seperti, java jazz 2019-2021 lalu youtube fan fest 2019-2020 dan hodgepodge di tahun 2019 saya seorang web developer.</p>
-                        <p class="lead">Dan juga sekarang saya sedang menggeluti di bidang konten kreator dimana saya membuat konsep dan membranding sebuah produk mencari DNA & Niche dia sebagai brand identiti nya agar mudah dikenali oleh banyak orang.</p>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of section -->
-        <!-- Section -->
-      <section class="section bg-primary pt-0 section-lg">
-    <div class="container">
-        <!-- Title -->
-        <div class="row">
-            <div class="col text-center">
-                <h2 class="h3 text-center mb-6">Web Project</h2>
-            </div>
-        </div>
-        <!-- End of title-->
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <!-- Carousel -->
-                <div id="Carousel1" class="carousel slide shadow-soft border border-light p-4 rounded" data-ride="carousel">
-                    <div class="carousel-inner rounded">
-                        <div class="carousel-item active">
-                            <img src="../../assets/img/carousel/image-1.PNG" class="d-block w-100" alt="slide1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-2.PNG" class="d-block w-100" alt="slide2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-3.PNG" class="d-block w-100" alt="slide3">
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div>
-                </div>
-                </section>
-                <section class="section bg-primary pt-0 section-lg">
-    <div class="container">
-        <!-- Title -->
-        <div class="row">
-            <div class="col text-center">
-                <h2 class="h3 text-center mb-6">Content Project</h2>
-            </div>
-        </div>
-        <!-- End of title-->
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <!-- Carousel -->
-                <div id="Carousel1" class="carousel slide shadow-soft border border-light p-4 rounded" data-ride="carousel">
-                    <div class="carousel-inner rounded">
-                        <div class="carousel-item active">
-                            <img src="../../assets/img/carousel/image-4.PNG" class="d-block w-100" alt="slide4">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-5.PNG" class="d-block w-100" alt="slide5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-6.PNG" class="d-block w-100" alt="slide6">
-                        </div>
-                         <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-7.PNG" class="d-block w-100" alt="slide7">
-                        </div>
-                         <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-8.PNG" class="d-block w-100" alt="slide8">
-                        </div>
-                         <div class="carousel-item">
-                            <img src="../../assets/img/carousel/image-9.PNG" class="d-block w-100" alt="slide9">
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div>
-                </div>
-                </section>
-        <!-- End of section -->
-        <!-- Section -->
-        <section class="section section-lg pt-0">
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <h2 class="h1">Skills</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <!-- Profile Card -->
-                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
-                            <div class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
-                                <img src="../../assets/img/team/profile-picture-1.jpg" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Neil Avatar">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="h5 mb-2">PHP</h3>
-                                <span class="h6 font-weight-normal text-gray mb-3"></span>
-                                <ul class="list-unstyled d-flex justify-content-center my-3">
-                                    <!-- <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
-                                            <span class="fab fa-slack-hash"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
-                                            <span class="fab fa-dribbble"></span>
-                                        </a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- End of Profile Card -->
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <!-- Profile Card -->
-                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
-                            <div class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
-                                <img src="../../assets/img/team/profile-picture-3.jpg" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Bonnie Avatar">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="h5 mb-2">MySQL</h3>
-                                <span class="h6 font-weight-normal text-gray mb-3"></span>
-                                <ul class="list-unstyled d-flex justify-content-center my-3">
-                                    <!-- <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
-                                            <span class="fab fa-slack-hash"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
-                                            <span class="fab fa-dribbble"></span>
-                                        </a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- End of Profile Card -->
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <!-- Profile Card -->
-                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
-                            <div class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
-                                <img src="../../assets/img/team/profile-picture-2.jpg" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Christopher avatar">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="h5 mb-2">Laravel</h3>
-                                <span class="h6 font-weight-normal text-gray mb-3"></span>
-                                <ul class="list-unstyled d-flex justify-content-center my-3">
-                                    <!-- <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
-                                            <span class="fab fa-slack-hash"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
-                                            <span class="fab fa-dribbble"></span>
-                                        </a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    
-                        <!-- End of Profile Card -->
-                        
-                    </div>
-                     <div class="col-12 col-md-6 col-lg-4">
-                        <!-- Profile Card -->
-                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
-                            <div class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
-                                <img src="../../assets/img/team/profile-picture-4.jpg" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Christopher avatar">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="h5 mb-2">Photoshop</h3>
-                                <span class="h6 font-weight-normal text-gray mb-3"></span>
-                                <ul class="list-unstyled d-flex justify-content-center my-3">
-                                    <!-- <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
-                                            <span class="fab fa-slack-hash"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
-                                            <span class="fab fa-dribbble"></span>
-                                        </a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                            </div>
-                            </div>
-                             <div class="col-12 col-md-6 col-lg-4">
-                        <!-- Profile Card -->
-                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
-                            <div class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
-                                <img src="../../assets/img/team/profile-picture-5.jpg" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Christopher avatar">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="h5 mb-2">Canva</h3>
-                                <span class="h6 font-weight-normal text-gray mb-3"></span>
-                                <ul class="list-unstyled d-flex justify-content-center my-3">
-                                    <!-- <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
-                                            <span class="fab fa-slack-hash"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
-                                            <span class="fab fa-dribbble"></span>
-                                        </a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-lg">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-12 col-lg-12 mb-5">
-                        <!-- Contact Card -->
-                        <div class="card bg-primary shadow-soft border-light p-2 p-md-3 p-lg-5">
-                            <div class="card-header">
-                                <div class="row justify-content-center">
-                                    <div class="col-12">
-                                        <!-- <div class="shadow-inset p-4 mb-5 rounded">
-                                            <iframe class="map rounded" id="gmap_canvas" src="https://goo.gl/maps/oYvu4erRDyPhxzjw5"></iframe>
-                                        </div> -->
-                                    </div>
-                                    <div class="col-12 col-md-8 text-center mb-5">
-                                        <h1 class="display-2 mb-3">Get in touch </h1>
-                                        <p class="lead">Semoga bapak ibu atau akang teteh tertarik dengan portofolio saya terimakasih.</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-5">
-                                    <div class="col-md-4 col-lg-4 text-center">
-                                        <!-- Visit Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-shape shadow-soft border-light rounded-circle mb-4">
-                                                <span class="fas fa-map-marker-alt"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Alamat</h2>
-                                            <span>
-                                                Jl.Cibaraja Kp Cimahi
-                                                <br>
-                                                Kab. Sukabumi
-                                            </span>
-                                        </div>
-                                        <!-- End of Visit Box -->
-                                    </div>
-                                    <div class="col-md-4 col-lg-4 text-center">
-                                        <!-- Call Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-shape shadow-soft border-light rounded-circle mb-4">
-                                                <span class="fas fa-headphones-alt"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Telpon</h2>
-                                            <span>+62895384896046</span>
-                                            <div class="text-small text-gray">
-                                                
-                                            </div>
-                                        </div>
-                                        <!-- End of Call Box -->
-                                    </div>
-                                    <div class="col-md-4 col-lg-4 text-center">
-                                        <!-- Email Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-shape shadow-soft border-light rounded-circle mb-4">
-                                                <span class="far fa-paper-plane"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Email</h2>
-                                            <a href="#">mohamadalfi47@gmail.com</a>
-                                            <!-- <br><a href="#">name@company.com</a> -->
-                                        </div>
-                                        <!-- End of Email Box -->
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="card-footer px-0 mx-auto">
-                                <button type="submit" class="btn btn-primary">Send message</button>
-                            </div>
-                        </div>
-                        <!-- End of Contact Card -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of section -->
-    </main>
-
-    
+	
+	<!-- ===========
+	///// Body /////
+	================
+	* Use class "tt-boxed" to enable page boxed layout globally (affects all elements containing class "tt-wrap").
+	* Use class "tt-smooth-scroll" to enable page smooth scrolling.
+	* Use class "tt-transition" to enable page transitions.
+	* Use class "tt-magic-cursor" to enable magic cursor.
+	-->
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
 
 
+		<!-- *************************************
+		*********** Begin body inner ************* 
+		************************************** -->
+		<main id="body-inner">
 
-    <!-- Core -->
-<script src="../../vendor/jquery/dist/jquery.min.js"></script>
-<script src="../../vendor/popper.js/dist/umd/popper.min.js"></script>
-<script src="../../vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../../vendor/headroom.js/dist/headroom.min.js"></script>
+			<!-- Begin page transition (do not remove!!!) 
+			=========================== -->
+			<div id="page-transition">
+				<div class="ptr-overlay"></div>
+				<div class="ptr-preloader">
+					<div class="ptr-prel-content">
+						<!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".ptr-prel-image"). -->
+						<img src="assets/img/logo-light.png" class="ptr-prel-image tt-logo-light" alt="Logo">
+					</div> <!-- /.ptr-prel-content -->
+				</div> <!-- /.ptr-preloader -->
+			</div>
+			<!-- End page transition -->
 
-<!-- Vendor JS -->
-<script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>
-<script src="../../vendor/nouislider/distribute/nouislider.min.js"></script>
-<script src="../../vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="../../vendor/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="../../vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="../../vendor/jquery.counterup/jquery.counterup.min.js"></script>
-<script src="../../vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<script src="../../vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="../../vendor/prismjs/prism.js"></script>
+			<!-- Begin magic cursor 
+			======================== -->
+			<div id="magic-cursor">
+				<div id="ball"></div>
+			</div>
+			<!-- End magic cursor -->
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+			<!-- Begin noise background -->
+			<div class="bg-noise"></div>
+			<!-- End noise background --> 
 
-<!-- Neumorphism JS -->
-<script src="../../assets/js/neumorphism.js"></script>
-</body>
+
+			<!-- *****************************************
+			*********** Begin scroll container *********** 
+			****************************************** -->
+			<div id="scroll-container"> 
+				
+				<!-- ===================
+				///// Begin header /////
+				========================
+				* Use class "tt-header-fixed" to set header to fixed position.
+				-->
+				<header id="tt-header" class="tt-header-fixed">
+					<div class="tt-header-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin logo 
+							================ -->
+							<div class="tt-logo"> 
+								<a href="index.html">
+									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
+									<img src="assets/img/logo-light.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
+									<img src="assets/img/logo-dark.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
+								</a>
+							</div>
+							<!-- End logo -->
+
+						</div> <!-- /.tt-header-col -->
+
+						<div class="tt-header-col">
+
+							<!-- Begin overlay menu toggle button -->
+							
+							<!-- End overlay menu toggle button -->
+
+							<!-- Begin overlay menu 
+							======================== 
+							* Use class "tt-ol-menu-center" to align menu to center.
+							* Use class "tt-ol-menu-count" to enable menu counter.
+							-->
+							<nav class="tt-overlay-menu tt-ol-menu-center tt-ol-menu-count">
+								<div class="tt-ol-menu-holder">
+									<div class="tt-ol-menu-inner tt-wrap">
+										<div class="tt-ol-menu-content">
+
+											<!-- Begin menu list -->
+											<ul class="tt-ol-menu-list">
+
+												<!-- <li><a href="">Single Link</a></li> -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap active">
+													<div class="tt-ol-submenu-trigger">
+														<a href="#">Home</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div> <!-- /.tt-ol-submenu-caret-wrap -->
+													</div> <!-- /.tt-ol-submenu-trigger -->
+													<div class="tt-ol-submenu">
+														<ul class="tt-ol-submenu-list">
+
+															<li class="active"><a href="index.html">Landing Page v.1</a></li>
+															<li><a href="landing-page-2.html">Landing Page v.2</a></li>
+
+														</ul> <!-- /.tt-ol-submenu-list -->
+													</div> <!-- /.tt-ol-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="#">Portfolio</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div> <!-- /.tt-ol-submenu-caret-wrap -->
+													</div> <!-- /.tt-ol-submenu-trigger -->
+													<div class="tt-ol-submenu">
+														<ul class="tt-ol-submenu-list">
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Portfolio List</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="portfolio-list-classic.html">List Classic</a></li>
+																		<li><a href="portfolio-list-overlay.html">List Overlay</a></li>
+																		<li><a href="portfolio-list-compact.html">List Compact</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Portfolio Grid</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="portfolio-grid-creative-1.html">Grid Creative v.1</a></li>
+																		<li><a href="portfolio-grid-creative-2.html">Grid Creative v.2</a></li>
+																		<li><a href="portfolio-grid-modern.html">Grid Modern</a></li>
+																		<li><a href="portfolio-grid-classic.html">Grid Classic</a></li>
+																		<li><a href="portfolio-grid-portrait-mode.html">Portrait Mode</a></li>
+																		<li><a href="portfolio-one-column.html">One Column</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Slider &amp; Carousel</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="portfolio-fullscreen-slider.html">Fullscreen Slider</a></li>
+																		<li><a href="portfolio-carousel-overlay.html">Carousel Overlay</a></li>
+																		<li><a href="portfolio-carousel-center.html">Carousel Center</a></li>
+																		<li><a href="portfolio-hover-carousel.html">Hover Carousel</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<li><a href="portfolio-interactive.html">Interactive</a></li>
+															<li><a href="portfolio-interactive-compact.html">Interactive Compact</a></li>
+															<li><a href="elements-classic-menu.html">Classic Menu</a></li>
+															<li><a href="elements-classic-filter.html">Classic Filter</a></li>
+
+														</ul> <!-- /.tt-ol-submenu-list -->
+													</div> <!-- /.tt-ol-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="#">About</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div> <!-- /.tt-ol-submenu-caret-wrap -->
+													</div> <!-- /.tt-ol-submenu-trigger -->
+													<div class="tt-ol-submenu">
+														<ul class="tt-ol-submenu-list">
+
+															<li><a href="about-us.html">About Us</a></li>
+															<li><a href="about-me.html">About Me</a></li>
+
+														</ul> <!-- /.tt-ol-submenu-list -->
+													</div> <!-- /.tt-ol-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="#">Blog</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div> <!-- /.tt-ol-submenu-caret-wrap -->
+													</div> <!-- /.tt-ol-submenu-trigger -->
+													<div class="tt-ol-submenu">
+														<ul class="tt-ol-submenu-list">
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Blog List</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="blog-interactive.html">Interactive List</a></li>
+																		<li><a href="blog-list.html">Compact List</a></li>
+																		<li><a href="blog-classic.html">Classic List</a></li>
+																		<li><a href="blog-classic-sidebar.html">Classic Sidebar</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Blog Post</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="blog-post.html">Single Post</a></li>
+																		<li><a href="blog-post-classic-sidebar.html">Classic Sidebar</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+														</ul> <!-- /.tt-ol-submenu-list -->
+													</div> <!-- /.tt-ol-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<!-- Begin submenu (submenu master)
+												==================================== -->
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="#">Shop</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div> <!-- /.tt-ol-submenu-caret-wrap -->
+													</div> <!-- /.tt-ol-submenu-trigger -->
+													<div class="tt-ol-submenu">
+														<ul class="tt-ol-submenu-list">
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Product Lists</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="shop-list.html">Sliding Sidebar</a></li>
+																		<li><a href="shop-list-classic.html">Classic Sidebar</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Product Pages</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="shop-single.html">Product Page</a></li>
+																		<li><a href="shop-single-simple.html">Simple Product Page</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">Product Ordering</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="shop-cart.html">Shopping Cart</a></li>
+																		<li><a href="shop-checkout.html">Checkout</a></li>
+																		<li><a href="shop-order-details.html">Order Details</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+															<!-- Begin submenu
+															=================== -->
+															<li class="tt-ol-submenu-wrap">
+																<div class="tt-ol-submenu-trigger">
+																	<a href="#" class="tt-ol-submenu-link">More Pages</a>
+																	<div class="tt-ol-submenu-caret-wrap">
+																		<div class="tt-ol-submenu-caret magnetic-item"></div>
+																	</div> <!-- /.tt-ol-submenu-caret-wrap -->
+																</div> <!-- /.tt-ol-submenu-trigger -->
+																<div class="tt-ol-submenu">
+																	<ul class="tt-ol-submenu-list">
+
+																		<li><a href="shop-wishlist.html">Wishlist</a></li>
+																		<li><a href="shop-login.html">Login Page</a></li>
+																		<li><a href="shop-register.html">Register Account</a></li>
+																		<li><a href="shop-reset-password.html">Reset Password</a></li>
+																		
+																	</ul> <!-- /.tt-ol-submenu-list -->
+																</div> <!-- /.tt-ol-submenu -->
+															</li>
+															<!-- End submenu -->
+
+														</ul> <!-- /.tt-ol-submenu-list -->
+													</div> <!-- /.tt-ol-submenu -->
+												</li>
+												<!-- End submenu (sub-master) -->
+
+												<li><a href="contact.html">Contact</a></li>
+
+											</ul>
+											<!-- End menu list -->
+
+										</div> <!-- /.tt-ol-menu-content -->
+									</div> <!-- /.tt-ol-menu-inner -->
+								</div> <!-- /.tt-ol-menu-holder -->
+
+								<!-- Begin noise background -->
+								<div class="bg-noise"></div>
+								<!-- End noise background -->
+
+							</nav> 
+							<!-- End overlay menu -->
+
+						</div> <!-- /.header-col -->
+					</div> <!-- /.header-inner -->
+				</header>
+				<!-- End header -->
+
+				
+				<!-- *************************************
+				*********** Begin content wrap *********** 
+				************************************** -->
+				<div id="content-wrap">
+
+					
+					<!-- ========================
+					///// Begin page header /////
+					============================= 
+					* Use class "ph-full" to enable fullscreen size.
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
+					* Use class "ph-center" to enable content center position.
+					* Use class "ph-bg-image" to enable page header background image (required for a portfolio single project!).
+					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light image (effect only with class "ph-bg-image").
+					* Use class "ph-image-shadow" to enable page header background image (effect only with class "ph-bg-image").
+					* Use class "ph-image-cropped" to crop image. It fixes image dimensions (no effect for "ph-bg-image"!).
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
+					* Use class "ph-content-parallax" to enable content parallax.
+					* Use class "ph-stroke" to enable caption title stroke style.
+					-->
+					<div id="page-header" class="ph-full ph-cap-sm ph-image-cropped ph-image-cover-3 ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
+
+							<!-- Begin page header image 
+							============================= -->
+							<div class="ph-image">
+								<div class="ph-image-inner">
+									<img src="assets/img/page-header/ph-6.jpg" alt="Image">
+								</div>
+							</div>
+							<!-- End page header image -->
+
+							<!-- Begin page header caption
+							=============================== 
+							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="ph-caption max-width-1000">
+								<h1 class="ph-caption-title ph-appear font-normal"><em>Hello Everyone!</em><br> I’m Creative Frontend Developer I possess strong skills in the core frontend technologies <em><u>high-quality</u></em> to user interfaces.</h1>
+								<div class="ph-caption-title-ghost ph-appear">Hello!</div>
+								<!-- <div class="ph-caption-subtitle ph-appear">Subtitle</div> -->
+							</div> 
+							<!-- End page header caption -->
+
+						</div> <!-- /.page-header-inner -->
+
+						<!-- Begin scroll down circle (you can change "data-offset" to set scroll top offset) 
+						============================== -->
+						<a href="#page-content" class="scroll-down-circle" data-offset="30">
+							<div class="sdc-inner ph-appear">
+								<div class="sdc-icon"><i class="fas fa-chevron-down"></i></div>
+								<svg viewBox="0 0 500 500">
+									<defs>
+										<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+									</defs>
+									<text dy="30">
+										<textPath xlink:href="#textcircle">Scroll down - Scroll down -</textPath>
+									</text>
+								</svg>
+							</div> <!-- /.sdc-inner -->
+						</a>
+						<!-- End scroll down circle -->
+
+						<!-- Begin made with love 
+						========================== -->
+						<div class="made-with-love ph-appear">
+							<div class="mwl-inner">
+								<div class="mwl-text">Alfi Faisal</div>
+							</div>
+						</div>
+						<!-- End made with love -->
+						
+					</div>
+					<!-- End page header -->
+
+
+					<!-- *************************************
+					*********** Begin page content *********** 
+					************************************** -->
+					<div id="page-content">
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section no-padding-bottom">
+							<div class="tt-section-inner">
+
+								<!-- Begin tt-Heading 
+								====================== 
+								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+								* Use class "tt-heading-stroke" to enable stroke style.
+								* Use class "tt-heading-center" to align tt-Heading to center.
+								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-10-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle text-gray">Latest Projects</h3>
+									<h2 class="tt-heading-title">Works</h2>
+									<div class="tt-btn tt-btn-link margin-top-20">
+										<a href="portfolio-grid-creative-1.html" data-hover="See All Works">See All Works</a>
+									</div>
+								</div>
+								<!-- End tt-Heading -->
+
+
+								<!-- Begin portfolio grid (works combined with tt-Ggrid!)
+								========================== 
+								* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
+								* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
+								* Use class "pgi-cap-center" to position portfolio grid item caption to center.
+								* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
+								--> 
+								<div id="portfolio-grid" class="pgi-cap-inside pgi-hover">
+
+									<!-- Begin tt-Grid
+									=================== 
+									* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
+									* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
+									* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
+									* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
+									* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
+									* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+									* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+									-->
+									<div class="tt-grid ttgr-layout-creative-2 ttgr-not-cropped ttgr-gap-4">
+
+										<!-- Begin tt-Grid items wrap 
+										============================== -->
+										<div class="tt-grid-items-wrap isotope-items-wrap">
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-video-wrap ttgr-height">
+																		<video class="pgi-video" loop muted preload="metadata" poster="assets/img/portfolio/portfolio-1.jpg">
+																			<source src="assets/vids/kamana.mp4" type="video/mp4">
+																			<source src="assets/vids/kamana.webm" type="video/webm">
+																		</video>
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">Kopi Kamana</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">App/Web</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item creative">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item anim-parallax">
+														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-video-wrap ttgr-height">
+																		<video class="pgi-video" loop muted preload="metadata" poster="assets/img/portfolio/portfolio-2.jpg">
+																			<source src="assets/vids/seecul.mp4" type="video/mp4">
+																			<source src="assets/vids/seecul.webm" type="video/webm">
+																		</video>
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">Kopi Seecul</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">App/Web</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/portfolio-3.jpg" alt="image">
+																	</figure> <!-- /.pgi-video-wrap -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">AMO Creative</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Web</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+											<!-- Begin tt-Grid item
+											======================== -->
+											<div class="tt-grid-item isotope-item nature">
+												<div class="ttgr-item-inner">
+
+													<!-- Begin portfolio grid item 
+													===============================
+													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+													-->
+													<div class="portfolio-grid-item">
+														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
+															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+															<div class="pgi-image-holder cover-opacity-2">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/portfolio-4.jpg" alt="image">
+																	</figure> <!-- /.pgi-image -->
+																</div> <!-- /.pgi-image-inner -->
+															</div> <!-- /.pgi-image-holder -->
+														</a> <!-- /.pgi-image-wrap -->
+
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">ABS Store</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Web</div>
+																	<!-- <div class="pgi-category">Varia</div> -->
+																</div> <!-- /.pli-categories-wrap -->
+															</div> <!-- /.pgi-caption-inner -->
+														</div> <!-- /.pgi-caption -->
+													</div>
+													<!-- End portfolio grid item -->
+
+												</div> <!-- /.ttgr-item-inner -->
+											</div>
+											<!-- End tt-Grid item -->
+
+										</div>
+										<!-- End tt-Grid items wrap  -->
+
+									</div>
+									<!-- End tt-Grid -->
+
+								</div>
+								<!-- End portfolio grid -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-bottom-xlg-150 padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap max-width-1100">
+
+								<!-- Begin tt-Heading 
+								====================== 
+								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+								* Use class "tt-heading-stroke" to enable stroke style.
+								* Use class "tt-heading-center" to align tt-Heading to center.
+								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-15-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle text-gray">What I Do</h3>
+									<h2 class="tt-heading-title">Services</h2>
+								</div>
+								<!-- End tt-Heading -->
+
+								<!-- Begin accordion 
+								===================== 
+								* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size.
+								* Use class "tt-ac-borders" to enable borders.
+								* Add class "is-open" to the "tt-accordion-content" to make this content open by default.
+								-->
+								<div class="tt-accordion tt-ac-xlg tt-ac-borders">
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<h3 class="tt-ac-head-title">Frontend</h3>
+											<div class="tt-accordion-subtext">Web Platforms</div>
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>We Make user-facing experience of websites and web applications. 
+												They combine their technical skills with design sensibilities 
+												to bring visual designs to life and deliver seamless, user-friendly interfaces.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<h3 class="tt-ac-head-title">UI/UX</h3>
+											<div class="tt-accordion-subtext">Design & Animation</div>
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>UI/UX combines both the visual design (UI) and the user experience (UX) aspects of a digital product. 
+												It aims to create a user-friendly, visually appealing,
+												 and engaging experience for users, ensuring that the product meets their needs and expectations.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<h3 class="tt-ac-head-title">Digital Strategy</h3>
+											<div class="tt-accordion-subtext">Plan and Approach</div>
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<p>approach that an organization or business adopts to leverage digital technologies and channels 
+												to achieve its goals and we make connect with their target audience effectively, 
+												and leverage the opportunities provided by digital technologies to achieve their business objectives.</p>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+									 <!-- /.tt-accordion-item -->
+
+								</div>
+								<!-- End accordion -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
+							<div class="tt-section-inner">
+
+								<!-- Begin scrolling text
+								========================== 
+								Change data-scroll-speed="*" to adjust scrolling speed.
+								Use class "scr-text-reverse" to reverse scrolling direction. 
+								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
+								-->
+								<div class="tt-scrolling-text scr-text-stroke font-italic" data-scroll-speed="15">
+									<div class="tt-scrolling-text-inner text-dark-3" data-text="Let's create something awesome together! -">
+										Let's create something awesome With Me! -
+									</div> <!-- /.tt-scrolling-text-inner -->
+								</div>
+								<!-- End scrolling text -->
+
+								<!-- Begin scrolling text
+								========================== 
+								Change data-scroll-speed="*" to adjust scrolling speed.
+								Use class "scr-text-reverse" to reverse scrolling direction. 
+								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
+								-->
+								<div class="tt-scrolling-text scr-text-stroke scr-text-reverse font-italic" data-scroll-speed="15">
+									<div class="tt-scrolling-text-inner text-dark-3" data-text="Let's create something awesome together! -">
+										Let's create something New together! -
+									</div> <!-- /.tt-scrolling-text-inner -->
+								</div>
+								<!-- End scrolling text -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150 padding-left-sm-3-p padding-right-sm-3-p bg-white-accent-3">
+							<div class="tt-section-inner tt-wrap max-width-900">
+
+								<!-- Begin tt-Heading 
+								====================== 
+								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+								* Use class "tt-heading-stroke" to enable stroke style.
+								* Use class "tt-heading-center" to align tt-Heading to center.
+								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-heading tt-heading-lg margin-bottom-10-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle text-gray">Get in Touch</h3>
+									<h2 class="tt-heading-title">Tell Me all
+										<br>the things</h2>
+								</div>
+								<!-- End tt-Heading -->
+
+									<!-- Begin form 
+									================ 
+									* Use class "tt-form-filled" or "tt-form-minimal" to change form style.
+									* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
+									-->
+									<form id="tt-contact-form" class="tt-form-minimal anim-fadeinup">
+
+										<!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
+										<input type="hidden" name="project_name" value="yourwebsiteaddress.com"> <!-- Change value to your site name -->
+										<input type="hidden" name="admin_email" value="your@email.com"> <!-- Change value to your valid email address (where a message will be sent) -->
+										<input type="hidden" name="form_subject" value="Message from yourwebsiteaddress.com"> <!-- Change value to your own message subject -->
+										<!-- End Hidden Required Fields -->
+
+										<div class="tt-row">
+											<div class="tt-col-md-6">
+
+												<div class="tt-form-group">
+													<label>Name <span class="required">*</span></label>
+													<input class="tt-form-control" type="text" name="Name" placeholder="" required>
+												</div>
+
+											</div> <!-- /.tt-col -->
+
+											<div class="tt-col-md-6">
+
+												<div class="tt-form-group">
+													<label>Email address <span class="required">*</span></label>
+													<input class="tt-form-control" type="email" name="Email" placeholder="" required>
+												</div>
+
+											</div> <!-- /.tt-col -->
+										</div> <!-- /.tt-row -->
+
+										<div class="tt-form-group">
+											<label>Subject <span class="required">*</span></label>
+											<input class="tt-form-control" type="text" name="Subject" placeholder="" required>
+										</div>
+
+										<div class="tt-form-group">
+											<label>Select an option <span class="required">*</span></label>
+											<select class="tt-form-control" name="option" required>
+												<option value="" disabled selected>Please choose an option</option>
+												<option value="Say Hello">Say hello</option>
+												<option value="New Project">New project</option>
+												<option value="Feedback">Feedback</option>
+												<option value="Other">Other</option>
+											</select>
+										</div>
+
+										<div class="tt-form-group">
+											<label>Message <span class="required">*</span></label>
+											<textarea class="tt-form-control" rows="6" name="Message" placeholder="" required></textarea>
+										</div>
+
+										<small class="tt-form-text"><em>Fields marked with an asterisk (*) are required!</em></small>
+
+										<div class="tt-btn tt-btn-light-outline margin-top-40">
+											<button type="submit" data-hover="Send Message">Send Message</button>
+										</div>
+									</form>
+									<!-- End form -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+					</div>
+					<!-- End page content -->
+					
+
+					<!-- ======================
+					///// Begin tt-footer /////
+					=========================== -->
+					<footer id="tt-footer">
+						<div class="tt-footer-inner">
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+
+									<!-- You can use whatever button or link here -->
+									<div class="tt-btn tt-btn-link">
+										<a href="#" class="scroll-to-top" data-hover="Back to top">Back to top</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+
+									<div class="tt-copyright">
+										© Copyright - <a href="https://www.instagram.com/alfifaisal_/" target="_blank" rel="noopener" class="tt-link">M. Alfi Faisal</a>
+									</div>
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+							<!-- Begin footer column 
+							========================= -->
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+
+									 <!-- /.footer-social -->
+
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer -->
+
+
+				</div>
+				<!-- End content wrap -->
+
+			</div>
+			<!-- End scroll container -->
+
+
+		</main>
+		<!-- End body inner -->
+
+
+        
+
+		<!-- ====================
+		///// Scripts below /////
+		===================== -->
+
+		<!-- Core JS -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
+
+		<!-- Libs and Plugins JS -->
+		<script src="assets/vendor/gsap/gsap.min.js"></script> <!-- GSAP JS (https://greensock.com/gsap/) -->
+		<script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script> <!-- GSAP ScrollToPlugin JS (https://greensock.com/scrolltoplugin/) -->
+		<script src="assets/vendor/gsap/ScrollTrigger.min.js"></script> <!-- GSAP ScrollTrigger JS (https://greensock.com/scrolltrigger/) -->
+
+		<script src="assets/vendor/smooth-scrollbar.js"></script> <!-- Smooth Scrollbar JS (https://github.com/idiotWu/smooth-scrollbar/) -->
+		<script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+		<script src="assets/vendor/isotope/imagesloaded.pkgd.min.js"></script> <!-- imagesloaded JS (more info: https://imagesloaded.desandro.com/) -->
+		<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+		<script src="assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
+		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+
+		<!-- Theme master JS -->
+		<script src="assets/js/theme.js"></script>
+
+
+
+	</body>
 
 </html>
