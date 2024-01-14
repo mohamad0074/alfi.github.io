@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 	<head>
 
 		<!-- Title -->
-		<title>Alfi Faisal Portofolio</title>
+		<title>Portofolio</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
+		<meta name="description" content="Download Tank - Creative Portfolio Showcase HTML Website Template that comes with rich features and well-commented code. Made by Themetorium.">
+		<meta name="author" content="themetorium.net">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,8 +35,6 @@
 		<!-- Template master CSS -->
 		<link rel="stylesheet" href="assets/css/helper.css">
 		<link rel="stylesheet" href="assets/css/theme.css">
-		
-
 
 	</head>
 
@@ -75,7 +77,7 @@
 
 			<!-- Begin noise background -->
 			<div class="bg-noise"></div>
-			<!-- End noise background --> 
+			<!-- End noise background -->
 
 
 			<!-- *****************************************
@@ -96,7 +98,7 @@
 							<!-- Begin logo 
 							================ -->
 							<div class="tt-logo"> 
-								<a href="landing-page-1.html">
+								<a href="index.html">
 									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
 									<img src="assets/img/logo-light.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
 									<img src="assets/img/logo-dark.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
@@ -109,7 +111,15 @@
 						<div class="tt-header-col">
 
 							<!-- Begin overlay menu toggle button -->
-							
+							<div id="tt-ol-menu-toggle-btn-wrap">
+								<div class="tt-ol-menu-toggle-btn-text">
+									<span class="text-menu" data-hover="Open">Menu</span>
+									<span class="text-close">Close</span>
+								</div>
+								<div class="tt-ol-menu-toggle-btn-holder">
+									<a href="#" class="tt-ol-menu-toggle-btn magnetic-item"><span></span></a>
+								</div>
+							</div>
 							<!-- End overlay menu toggle button -->
 
 							<!-- Begin overlay menu 
@@ -129,7 +139,7 @@
 
 												<!-- Begin submenu (submenu master)
 												==================================== -->
-												<li class="tt-ol-submenu-wrap active">
+												<li class="tt-ol-submenu-wrap">
 													<div class="tt-ol-submenu-trigger">
 														<a href="#">Home</a>
 														<div class="tt-ol-submenu-caret-wrap">
@@ -139,7 +149,7 @@
 													<div class="tt-ol-submenu">
 														<ul class="tt-ol-submenu-list">
 
-															<li class="active"><a href="landing-page-1.html">Landing Page v.1</a></li>
+															<li><a href="landing-page-1.html">Landing Page v.1</a></li>
 															<li><a href="landing-page-2.html">Landing Page v.2</a></li>
 
 														</ul> <!-- /.tt-ol-submenu-list -->
@@ -445,9 +455,12 @@
 					
 					<!-- ========================
 					///// Begin page header /////
+					=============================
+					* ATENTION: This page header is slightly different from the default page header! 
+					It contains some extra elements and classes specifically for a portfolio single project.
 					============================= 
 					* Use class "ph-full" to enable fullscreen size.
-					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).).
 					* Use class "ph-center" to enable content center position.
 					* Use class "ph-bg-image" to enable page header background image (required for a portfolio single project!).
 					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light image (effect only with class "ph-bg-image").
@@ -456,15 +469,16 @@
 					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
 					* Use class "ph-content-parallax" to enable content parallax.
 					* Use class "ph-stroke" to enable caption title stroke style.
+					* Use class "ph-inline" to enable content inline position (for a single project page only! No effect with class "ph-center"!).
 					-->
-					<div id="page-header" class="ph-full ph-cap-sm ph-image-cropped ph-image-cover-3 ph-content-parallax">
+					<div id="page-header" class="ph-full ph-bg-image ph-image-shadow ph-image-cover-5 ph-content-parallax">
 						<div class="page-header-inner tt-wrap">
 
 							<!-- Begin page header image 
 							============================= -->
 							<div class="ph-image">
 								<div class="ph-image-inner">
-									<img src="assets/img/page-header/ph-6.jpg" alt="Image">
+									<img src="assets/img/single-project/project-1/project-1-1.jpg" alt="Image">
 								</div>
 							</div>
 							<!-- End page header image -->
@@ -473,12 +487,42 @@
 							=============================== 
 							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
 							-->
-							<div class="ph-caption max-width-1000">
-								<h1 class="ph-caption-title ph-appear font-normal"><em>Hello Everyone!</em><br> I’m Creative Frontend Developer I possess strong skills in the core frontend technologies <em><u>high-quality</u></em> to user interfaces.</h1>
-								<div class="ph-caption-title-ghost ph-appear">Hello!</div>
-								<!-- <div class="ph-caption-subtitle ph-appear">Subtitle</div> -->
+							<div class="ph-caption">
+								<div class="ph-categories ph-appear">
+									<div class="ph-category" style="">UI/UX</div>
+									<!-- <div class="ph-category">Varia</div> -->
+								</div> <!-- /.ph-categories -->
+
+								<h2 class="ph-caption-title ph-appear">Kamana</h2> <!-- You can use <br class="hide-from-lg"> to break a text line if needed -->
+								<!-- <h4 class="ph-caption-subtitle ph-appear">Subtitle</h4> -->
 							</div> 
 							<!-- End page header caption -->
+
+							<!-- Begin project info list
+							============================= 
+							* You can use the project info list as a standalone element outside of the page header if you want.
+							-->
+							<div class="project-info-list anim-fadeinup margin-top-60">
+								<ul>
+									<li>
+										<div class="pi-list-heading">Client</div>
+										<div class="pi-list-cont">Kopi Kamana</div>
+									</li>
+									<li>
+										<div class="pi-list-heading">Year</div>
+										<div class="pi-list-cont">2023</div>
+									</li>
+									<li>
+										<div class="pi-list-heading">Role</div>
+										<div class="pi-list-cont">Branding</div> <!-- Describe in a few words -->
+									</li>
+									<li>
+										<div class="pi-list-heading">Website</div>
+										<div class="pi-list-cont"><a href="#" target="_blank" rel="noopener">Private Website<span class="pi-list-icon"><i class="fas fa-arrow-right"></i></span></a></div>
+									</li>
+								</ul>
+							</div>
+							<!-- End project info list -->
 
 						</div> <!-- /.page-header-inner -->
 
@@ -503,10 +547,40 @@
 						========================== -->
 						<div class="made-with-love ph-appear">
 							<div class="mwl-inner">
-								<div class="mwl-text">Alfi Faisal</div>
+								<div class="mwl-text">Made with</div>
+								<div class="mwl-icon"><i class="far fa-heart"></i></div>
 							</div>
 						</div>
 						<!-- End made with love -->
+
+						<!-- Begin page header share (share buttons are for design purposes only!) 
+						============================= -->
+						<div class="ph-share">
+							<div class="ph-share-trigger ph-appear">
+								<div class="ph-share-text">Share</div>
+								<div class="ph-share-icon magnetic-item"><i class="fas fa-share-alt"></i></div>
+							</div> <!-- /.ph-share-trigger -->
+
+							<div class="ph-share-content">
+								<div class="ph-share-close cursor-close"><div class="bg-noise"></div></div>
+								<div class="ph-share-inner">
+									<h1 class="ph-share-title ph-share-appear">Spread the Word!</h1>
+									<div class="ph-share-subtitle ph-share-appear">Share this project with your friends</div>
+
+									<div class="social-buttons ph-share-appear">
+										<ul>
+											<li><a href="#0" class="magnetic-item" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#0" class="magnetic-item" title="Share on Twitter"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#0" class="magnetic-item" title="Share on Pinterest"><i class="fab fa-pinterest"></i></a></li>
+										</ul>
+									</div> <!-- /.social-buttons -->
+
+								</div> <!-- /.ph-share-inner -->
+								
+								<div class="ph-share-ghost ph-share-appear">Share</div>
+							</div> <!-- /.ph-share-content -->
+						</div>
+						<!-- End page header share -->
 						
 					</div>
 					<!-- End page header -->
@@ -517,39 +591,132 @@
 					************************************** -->
 					<div id="page-content">
 
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap">
+
+								<div class="tt-row">
+									<div class="tt-col-lg-4 padding-right-md-5-p">
+
+										<!-- Begin tt-Heading 
+										====================== 
+										* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+										* Use class "tt-heading-stroke" to enable stroke style.
+										* Use class "tt-heading-center" to align tt-Heading to center.
+										* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+										-->
+										<div class="tt-heading tt-heading-xsm margin-bottom-60 anim-fadeinup">
+											<h2 class="tt-heading-title">About</h2>
+											<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+										</div>
+										<!-- End tt-Heading -->
+
+									</div> <!-- /.tt-col -->
+
+									<div class="tt-col-lg-8">
+
+										<div class="anim-fadeinup text-gray">
+											<p>Answer misery adieus add wooded how nay men before though. Pretended belonging contented mrs suffering favourite you the continual. Mrs civil nay least means tried drift. Natural end law whether but and towards certain. Furnished unfeeling his sometimes see day promotion. Quitting informed concerns can men now informed.</p>
+
+											<!-- <div class="tt-btn tt-btn-link no-margin">
+												<a href="dummy-page.html" data-hover="Explore More">Explore More</a>
+											</div> -->
+										</div>
+
+									</div> <!-- /.tt-col -->
+								</div> <!-- /.tt-row -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section">
+							<div class="tt-section-inner">
+
+								<!-- Begin tt-image
+								====================
+								* Use class "tti-fixed-height" to enable image fixed height (no effect on small screens!).
+								* Use class "anim-image-parallax" on <img> tag to enable parallax effect.
+								* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-100". More info about helper classes can be found in the file "helper.css".
+								-->
+								<div class="tt-image tti-fixed-height">
+									<figure>
+										<img class="anim-image-parallax tt-lazy" src="assets/img/single-project/project-1/project-1-2.jpg" data-src="assets/img/portfolio/single-project/project-1/project-1-1.jpg" alt="image">
+										<figcaption>
+											Image Caption
+										</figcaption>
+									</figure>
+								</div> 
+								<!-- End tt-image -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap">
+
+									<div class="tt-row">
+										<div class="tt-col-lg-8">
+
+											<!-- Begin tt-Heading 
+											====================== 
+											* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+											* Use class "tt-heading-stroke" to enable stroke style.
+											* Use class "tt-heading-center" to align tt-Heading to center.
+											* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+											-->
+											<div class="tt-heading tt-heading-xsm anim-fadeinup">
+												<h2 class="tt-heading-title">The Vision</h2>
+												<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+											</div>
+											<!-- End tt-Heading -->
+
+											<div class="anim-fadeinup text-gray">
+												<p>Was justice improve age article between. No projection as up preference reasonably delightful celebrated. Preserved and abilities assurance tolerably breakfast use saw. And painted letters forming far village elderly compact. Her rest west each spot his and you knew. Estate gay wooded depart six far her.</p>
+											</div>
+
+										</div> <!-- /.tt-col -->
+
+										<div class="tt-col-lg-4">
+										</div> <!-- /.tt-col -->
+									</div> <!-- /.tt-row -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+
+
 						<!-- =======================
 						///// Begin tt-section /////
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
 						<div class="tt-section no-padding-bottom">
-							<div class="tt-section-inner">
+							<div class="tt-section-inner tt-wrap">
 
-								<!-- Begin tt-Heading 
-								====================== 
-								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
-								* Use class "tt-heading-stroke" to enable stroke style.
-								* Use class "tt-heading-center" to align tt-Heading to center.
-								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-								-->
-								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-10-p anim-fadeinup">
-									<h3 class="tt-heading-subtitle text-gray">Latest Projects</h3>
-									<h2 class="tt-heading-title">Works</h2>
-									<div class="tt-btn tt-btn-link margin-top-20">
-										<a href="portfolio-grid-creative-1.html" data-hover="See All Works">See All Works</a>
-									</div>
-								</div>
-								<!-- End tt-Heading -->
-
-
-								<!-- Begin portfolio grid (works combined with tt-Ggrid!)
-								========================== 
-								* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
-								* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
-								* Use class "pgi-cap-center" to position portfolio grid item caption to center.
-								* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
+								<!-- Begin tt-Gallery (works combined with tt-Ggrid!)
+								======================
+								* Use class "ttga-hover" to enable gallery item hover effect (behavior depends on "ttgr-gap-*" classes below).
 								--> 
-								<div id="portfolio-grid" class="pgi-cap-inside pgi-hover">
+								<div class="tt-gallery">
 
 									<!-- Begin tt-Grid
 									=================== 
@@ -561,47 +728,29 @@
 									* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
 									* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
 									-->
-									<div class="tt-grid ttgr-layout-creative-2 ttgr-not-cropped ttgr-gap-4">
+									<div class="tt-grid ttgr-not-cropped ttgr-shifted ttgr-gap-5">
 
 										<!-- Begin tt-Grid items wrap 
 										============================== -->
-										<div class="tt-grid-items-wrap isotope-items-wrap">
+										<div class="tt-grid-items-wrap isotope-items-wrap lightgallery">
 
 											<!-- Begin tt-Grid item
 											======================== -->
-											<div class="tt-grid-item isotope-item people">
+											<div class="tt-grid-item isotope-item">
 												<div class="ttgr-item-inner">
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="kamana.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder cover-opacity-2">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-video-wrap ttgr-height">
-																		<video class="pgi-video" loop muted preload="metadata" poster="assets/img/portfolio/portfolio-1.jpg">
-																			<source src="assets/vids/kamana.mp4" type="video/mp4">
-																			<source src="assets/vids/kamana.webm" type="video/webm">
-																		</video>
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">Kopi Kamana</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">App/Web</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
+													<!-- Begin tt-Gallery item 
+													=========================== -->
+													<a href="assets/img/single-project/project-1/project-1-2.jpg" class="tt-gallery-item lg-trigger" data-cursor="View">
+														<div class="tt-gallery-item-inner">
+															<div class="tt-gallery-image-wrap">
+																<figure class="tt-gallery-image ttgr-height">
+																	<img class="anim-image-parallax" src="assets/img/single-project/project-1/project-1-2.jpg" alt="image">
+																</figure> <!-- /.tt-gallery-image -->
+															</div> <!-- /.tt-gallery-image-wrap -->
+														</div> <!-- /.tt-gallery-item-inner -->
+													</a>
+													<!-- End tt-Gallery item -->
 
 												</div> <!-- /.ttgr-item-inner -->
 											</div>
@@ -609,39 +758,21 @@
 
 											<!-- Begin tt-Grid item
 											======================== -->
-											<div class="tt-grid-item isotope-item creative">
+											<div class="tt-grid-item isotope-item">
 												<div class="ttgr-item-inner">
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item anim-parallax">
-														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder cover-opacity-2">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-video-wrap ttgr-height">
-																		<video class="pgi-video" loop muted preload="metadata" poster="assets/img/portfolio/portfolio-2.jpg">
-																			<source src="assets/vids/seecul.mp4" type="video/mp4">
-																			<source src="assets/vids/seecul.webm" type="video/webm">
-																		</video>
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">Kopi Seecul</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">App/Web</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
+													<!-- Begin tt-Gallery item
+													=========================== -->
+													<a href="assets/img/single-project/project-1/project-1-3.jpg" class="tt-gallery-item lg-trigger" data-cursor="View">
+														<div class="tt-gallery-item-inner">
+															<div class="tt-gallery-image-wrap">
+																<figure class="tt-gallery-image ttgr-height">
+																	<img class="anim-image-parallax" src="assets/img/single-project/project-1/project-1-3.jpg" alt="image">
+																</figure> <!-- /.tt-gallery-image -->
+															</div> <!-- /.tt-gallery-image-wrap -->
+														</div> <!-- /.tt-gallery-item-inner -->
+													</a>
+													<!-- End tt-Gallery item -->
 
 												</div> <!-- /.ttgr-item-inner -->
 											</div>
@@ -649,74 +780,21 @@
 
 											<!-- Begin tt-Grid item
 											======================== -->
-											<div class="tt-grid-item isotope-item people">
+											<div class="tt-grid-item isotope-item">
 												<div class="ttgr-item-inner">
 
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder cover-opacity-2">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/portfolio-3.jpg" alt="image">
-																	</figure> <!-- /.pgi-video-wrap -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">AMO Creative</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">Web</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													
-													<!-- End portfolio grid item -->
-
-												</div> <!-- /.ttgr-item-inner -->
-											</div>
-											<!-- End tt-Grid item -->
-
-											<!-- Begin tt-Grid item
-											======================== -->
-											<div class="tt-grid-item isotope-item nature">
-												<div class="ttgr-item-inner">
-
-													<!-- Begin portfolio grid item 
-													===============================
-													* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-													-->
-													<div class="portfolio-grid-item">
-														<a href="#" class="pgi-image-wrap" data-cursor="View<br>Project">
-															<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-															<div class="pgi-image-holder cover-opacity-2">
-																<div class="pgi-image-inner anim-zoomin">
-																	<figure class="pgi-image ttgr-height">
-																		<img src="assets/img/portfolio/portfolio-4.jpg" alt="image">
-																	</figure> <!-- /.pgi-image -->
-																</div> <!-- /.pgi-image-inner -->
-															</div> <!-- /.pgi-image-holder -->
-														</a> <!-- /.pgi-image-wrap -->
-
-														<div class="pgi-caption">
-															<div class="pgi-caption-inner">
-																<h2 class="pgi-title">ABS Store</h2>
-																<div class="pgi-categories-wrap">
-																	<div class="pgi-category">Web</div>
-																	<!-- <div class="pgi-category">Varia</div> -->
-																</div> <!-- /.pli-categories-wrap -->
-															</div> <!-- /.pgi-caption-inner -->
-														</div> <!-- /.pgi-caption -->
-													</div>
-													<!-- End portfolio grid item -->
+													<!-- Begin tt-Gallery item 
+													=========================== -->
+													<a href="assets/img/single-project/project-1/project-1-4.jpg" class="tt-gallery-item lg-trigger" data-cursor="View" data-sub-html="Yes, you can use image captions. :)">
+														<div class="tt-gallery-item-inner">
+															<div class="tt-gallery-image-wrap">
+																<figure class="tt-gallery-image ttgr-height">
+																	<img class="anim-image-parallax" src="assets/img/single-project/project-1/project-1-4.jpg" alt="image">
+																</figure> <!-- /.tt-gallery-image -->
+															</div> <!-- /.tt-gallery-image-wrap -->
+														</div> <!-- /.tt-gallery-item-inner -->
+													</a>
+													<!-- End tt-Gallery item -->
 
 												</div> <!-- /.ttgr-item-inner -->
 											</div>
@@ -729,7 +807,7 @@
 									<!-- End tt-Grid -->
 
 								</div>
-								<!-- End portfolio grid -->
+								<!-- End tt-Gallery -->
 
 							</div> <!-- /.tt-section-inner -->
 						</div>
@@ -741,161 +819,28 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div class="tt-section padding-bottom-xlg-150 padding-left-sm-3-p padding-right-sm-3-p">
-							<div class="tt-section-inner tt-wrap max-width-1100">
+						<div class="tt-section padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap">
 
-								<!-- Begin tt-Heading 
-								====================== 
-								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
-								* Use class "tt-heading-stroke" to enable stroke style.
-								* Use class "tt-heading-center" to align tt-Heading to center.
-								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+								<!-- Begin page nav 
+								==================== 
+								* Use class "tt-pn-stroke" to enable title stroke style.
+								* Use class "tt-pn-scroll" to enable hover title scroll. Note: If "tt-pn-hover-title" text is wider than "tt-pn-link" then it scrolls by default. The longer the text, the faster it scrolls.
 								-->
-								<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-15-p anim-fadeinup">
-									<h3 class="tt-heading-subtitle text-gray">What I Do</h3>
-									<h2 class="tt-heading-title">Services</h2>
+								<div class="tt-page-nav tt-pn-scroll">
+									<a href="single-project-2.html" class="tt-pn-link anim-fadeinup">
+										<div class="tt-pn-title">Next Project</div>
+										<div class="tt-pn-hover-title">Smithy</div>
+									</a> <!-- /.tt-pn-link -->
+
+									<div class="tt-pn-subtitle anim-fadeinup">Explore More</div>
+
+									<!-- Use if destination page contains page header image -->
+									<div class="tt-pn-image">
+										<img src="assets/img/portfolio/portfolio-2.jpg" alt="image">
+									</div>
 								</div>
-								<!-- End tt-Heading -->
-
-								<!-- Begin accordion 
-								===================== 
-								* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size.
-								* Use class "tt-ac-borders" to enable borders.
-								* Add class "is-open" to the "tt-accordion-content" to make this content open by default.
-								-->
-								<div class="tt-accordion tt-ac-xlg tt-ac-borders">
-									<div class="tt-accordion-item anim-fadeinup">
-										<div class="tt-accordion-heading">
-											<h3 class="tt-ac-head-title">Frontend</h3>
-											<div class="tt-accordion-subtext">Web Platforms</div>
-											<div class="tt-accordion-caret-wrap">
-												<div class="tt-accordion-caret magnetic-item"></div>
-											</div>
-										</div> <!-- /.tt-accordion-heading -->
-										<div class="tt-accordion-content max-width-800">
-											<p>We Make user-facing experience of websites and web applications. 
-												They combine their technical skills with design sensibilities 
-												to bring visual designs to life and deliver seamless, user-friendly interfaces.</p>
-										</div> <!-- /.tt-accordion-content -->
-									</div> <!-- /.tt-accordion-item -->
-
-									<div class="tt-accordion-item anim-fadeinup">
-										<div class="tt-accordion-heading">
-											<h3 class="tt-ac-head-title">UI/UX</h3>
-											<div class="tt-accordion-subtext">Design & Animation</div>
-											<div class="tt-accordion-caret-wrap">
-												<div class="tt-accordion-caret magnetic-item"></div>
-											</div>
-										</div> <!-- /.tt-accordion-heading -->
-										<div class="tt-accordion-content max-width-800">
-											<p>UI/UX combines both the visual design (UI) and the user experience (UX) aspects of a digital product. 
-												It aims to create a user-friendly, visually appealing,
-												 and engaging experience for users, ensuring that the product meets their needs and expectations.</p>
-										</div> <!-- /.tt-accordion-content -->
-									</div> <!-- /.tt-accordion-item -->
-
-									<div class="tt-accordion-item anim-fadeinup">
-										<div class="tt-accordion-heading">
-											<h3 class="tt-ac-head-title">Digital Strategy</h3>
-											<div class="tt-accordion-subtext">Plan and Approach</div>
-											<div class="tt-accordion-caret-wrap">
-												<div class="tt-accordion-caret magnetic-item"></div>
-											</div>
-										</div> <!-- /.tt-accordion-heading -->
-										<div class="tt-accordion-content max-width-800">
-											<p>approach that an organization or business adopts to leverage digital technologies and channels 
-												to achieve its goals and we make connect with their target audience effectively, 
-												and leverage the opportunities provided by digital technologies to achieve their business objectives.</p>
-										</div> <!-- /.tt-accordion-content -->
-									</div> <!-- /.tt-accordion-item -->
-									 <!-- /.tt-accordion-item -->
-
-								</div>
-								<!-- End accordion -->
-
-							</div> <!-- /.tt-section-inner -->
-						</div>
-						<!-- End tt-section -->
-
-
-						<!-- =======================
-						///// Begin tt-section /////
-						============================ 
-						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-						-->
-						
-						<!-- End tt-section -->
-
-
-						<!-- =======================
-						///// Begin tt-section /////
-						============================ 
-						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-						-->
-						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150">
-							<div class="tt-section-inner">
-
-								<!-- Begin scrolling text
-								========================== 
-								Change data-scroll-speed="*" to adjust scrolling speed.
-								Use class "scr-text-reverse" to reverse scrolling direction. 
-								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
-								-->
-								<div class="tt-scrolling-text scr-text-stroke font-italic" data-scroll-speed="15">
-									<div class="tt-scrolling-text-inner text-dark-3" data-text="Let's create something awesome together! -">
-										Let's create something awesome With Me! -
-									</div> <!-- /.tt-scrolling-text-inner -->
-								</div>
-								<!-- End scrolling text -->
-
-								<!-- Begin scrolling text
-								========================== 
-								Change data-scroll-speed="*" to adjust scrolling speed.
-								Use class "scr-text-reverse" to reverse scrolling direction. 
-								Use class "scr-text-stroke" to enable text stroke style (no effect on smaller screens!). 
-								-->
-								<div class="tt-scrolling-text scr-text-stroke scr-text-reverse font-italic" data-scroll-speed="15">
-									<div class="tt-scrolling-text-inner text-dark-3" data-text="Let's create something awesome together! -">
-										Let's create something New together! -
-									</div> <!-- /.tt-scrolling-text-inner -->
-								</div>
-								<!-- End scrolling text -->
-
-							</div> <!-- /.tt-section-inner -->
-						</div>
-						<!-- End tt-section -->
-
-
-						<!-- =======================
-						///// Begin tt-section /////
-						============================ 
-						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-						-->
-						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150 padding-left-sm-3-p padding-right-sm-3-p bg-white-accent-3">
-							<div class="tt-section-inner tt-wrap max-width-900">
-
-								<!-- Begin tt-Heading 
-								====================== 
-								* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
-								* Use class "tt-heading-stroke" to enable stroke style.
-								* Use class "tt-heading-center" to align tt-Heading to center.
-								* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-								-->
-								<div class="tt-heading tt-heading-lg margin-bottom-10-p anim-fadeinup">
-									<h3 class="tt-heading-subtitle text-gray">Get in Touch</h3>
-									<h2 class="tt-heading-title">Tell Me all
-										<br>the things</h2>
-										<br>mohamadalfi47@gmail.com/62+895384896046</h2>
-								</div>
-								<!-- End tt-Heading -->
-
-									<!-- Begin form 
-									================ 
-									* Use class "tt-form-filled" or "tt-form-minimal" to change form style.
-									* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
-									-->
-									
-									<!-- End form -->
+								<!-- End page nav -->
 
 							</div> <!-- /.tt-section-inner -->
 						</div>
@@ -904,7 +849,7 @@
 
 					</div>
 					<!-- End page content -->
-					
+
 
 					<!-- ======================
 					///// Begin tt-footer /////
@@ -932,7 +877,7 @@
 								<div class="footer-col-inner">
 
 									<div class="tt-copyright">
-										© Copyright - <a href="https://www.instagram.com/alfifaisal_/" target="_blank" rel="noopener" class="tt-link">M. Alfi Faisal</a>
+										© Copyright - <a href="https://themetorium.net" target="_blank" rel="noopener" class="tt-link">Themetorium.net</a>
 									</div>
 
 								</div> <!-- /.footer-col-inner -->
@@ -944,7 +889,18 @@
 							<div class="footer-col tt-align-center-right">
 								<div class="footer-col-inner">
 
-									 <!-- /.footer-social -->
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><a href="https://www.facebook.com/themetorium" class="magnetic-item" target="_blank" rel="noopener">Fb.</a></li>
+												<li><a href="https://twitter.com/Themetorium" class="magnetic-item" target="_blank" rel="noopener">Tw.</a></li>
+												<li><a href="https://www.youtube.com/" class="magnetic-item" target="_blank" rel="noopener">Yt.</a></li>
+												<li><a href="https://dribbble.com/Themetorium" class="magnetic-item" target="_blank" rel="noopener">Dr.</a></li>
+												<li><a href="https://www.behance.net/Themetorium" class="magnetic-item" target="_blank" rel="noopener">Be.</a></li>
+											</ul>
+										</div> <!-- /.social-buttons -->
+									</div> <!-- /.footer-social -->
 
 								</div> <!-- /.footer-col-inner -->
 							</div>
